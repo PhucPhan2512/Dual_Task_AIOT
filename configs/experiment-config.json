@@ -1,0 +1,78 @@
+{
+  "dataset_name": "PPG-DaLiA / PPG_FieldStudy",
+  "subjects": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "train_subjects": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "val_subjects": [
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "test_subjects": [
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "fs": 64,
+  "window_size": 512,
+  "stride": 256,
+  "num_classes": 8,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "max_epochs": 100,
+  "patience": 10,
+  "gamma_main": 1.0,
+  "gamma_sensitivity": [
+    0.0,
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "input_channels": 1,
+  "bottleneck_channels": 128,
+  "bottleneck_length": 64,
+  "gap_feature_dim": 128,
+  "flatten_feature_dim": 8192,
+  "hidden_dim": 128,
+  "dropout": 0.2,
+  "main_filter": null,
+  "normalization": "train_global_zscore",
+  "latency_cpu_threads": 1,
+  "latency_warmup": 100,
+  "latency_iterations": 1000,
+  "latency_sessions": 3,
+  "project_root": "d:\\IOT_AI\\Dual_Task_Autoencoder",
+  "data_root": "d:\\IOT_AI\\Dual_Task_Autoencoder\\data\\PPG_FieldStudy"
+}

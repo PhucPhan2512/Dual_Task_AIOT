@@ -1,0 +1,15 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "pytorch": "2.14.0+cu126",
+  "cpu_threads": 1,
+  "batch_size": 1,
+  "dtype": "float32",
+  "warmup": 100,
+  "iterations_per_session": 1000,
+  "sessions": 3,
+  "input_in_ram": true,
+  "includes_file_io": false,
+  "includes_preprocessing": false
+}

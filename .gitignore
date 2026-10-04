@@ -1,0 +1,41 @@
+# =========================
+# KHÔNG UP DATA
+# =========================
+data/
+**/data/
+
+# Các định dạng dữ liệu thô
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.edf
+*.wav
+*.mp3
+*.flac
+*.npy
+*.npz
+
+# =========================
+# PYTHON / JUPYTER
+# =========================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =========================
+# IDE / SYSTEM
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.log

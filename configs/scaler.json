@@ -1,0 +1,6 @@
+{
+  "mean": 0.004277964825032665,
+  "std": 76.028651766159,
+  "n_unique_train_points": 3526144,
+  "source": "Unique time points covered by kept Train windows"
+}
