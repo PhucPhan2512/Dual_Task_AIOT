@@ -1,0 +1,4 @@
+split,windows,subjects,classes_present
+train,13705,9,"[0, 1, 2, 3, 4, 5, 6, 7]"
+val,4967,3,"[0, 1, 2, 3, 4, 5, 6, 7]"
+test,4707,3,"[0, 1, 2, 3, 4, 5, 6, 7]"

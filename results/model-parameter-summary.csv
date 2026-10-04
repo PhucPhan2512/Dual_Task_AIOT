@@ -1,0 +1,6 @@
+model,parameters,expected_parameters,logits_shape,reconstruction_shape
+MTL-GAP,87945,87945,"(4, 8)","(4, 1, 512)"
+MTL-Flat,1120137,1120137,"(4, 8)","(4, 1, 512)"
+CNN-GAP,52808,52808,"(4, 8)",
+CNN-Flat,1085000,1085000,"(4, 8)",
+AE,70401,70401,,"(4, 1, 512)"

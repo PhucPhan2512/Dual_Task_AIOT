@@ -1,0 +1,16 @@
+model,seed,gamma,best_epoch,selection_metric,best_selection_score,best_val_subject_accuracy,best_val_subject_macro_f1,best_val_subject_reconstruction_mse,epochs_trained,checkpoint,training_time_s
+MTL-GAP,42,1.0,41,val_subject_macro_f1,0.430769662037166,0.500641589670714,0.430769662037166,0.0017985497497291288,51,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_gap_seed42_main.pt,60.911800399997446
+MTL-GAP,43,1.0,39,val_subject_macro_f1,0.43427198204270506,0.4921965818558404,0.43427198204270506,0.0016455569214582546,49,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_gap_seed43_main.pt,57.58182130000205
+MTL-GAP,44,1.0,11,val_subject_macro_f1,0.41063854562877466,0.5014996111525128,0.41063854562877466,0.0028198858167047917,21,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_gap_seed44_main.pt,24.817267599999468
+MTL-Flat,42,1.0,6,val_subject_macro_f1,0.36725743615581735,0.43277526201663236,0.36725743615581735,0.009025888620047813,16,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_flat_seed42_main.pt,18.560935000001336
+MTL-Flat,43,1.0,7,val_subject_macro_f1,0.36437831746598165,0.43828184519881686,0.36437831746598165,0.006539684172228682,17,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_flat_seed43_main.pt,20.188994600001024
+MTL-Flat,44,1.0,6,val_subject_macro_f1,0.36463842877844804,0.4483165780236058,0.36463842877844804,0.005790033782497608,16,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\mtl_flat_seed44_main.pt,18.87817609999911
+CNN-GAP,42,1.0,41,val_subject_macro_f1,0.4444136609919401,0.5176980943004309,0.4444136609919401,,51,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_gap_seed42_main.pt,45.62377590000324
+CNN-GAP,43,1.0,28,val_subject_macro_f1,0.4154841161709235,0.5066473605068548,0.4154841161709235,,38,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_gap_seed43_main.pt,34.056109500001185
+CNN-GAP,44,1.0,36,val_subject_macro_f1,0.4244191201429082,0.507078860944527,0.4244191201429082,,46,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_gap_seed44_main.pt,41.894480200000544
+CNN-Flat,42,1.0,6,val_subject_macro_f1,0.39324621088934436,0.4470814644428627,0.39324621088934436,,16,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_flat_seed42_main.pt,14.1031103000023
+CNN-Flat,43,1.0,5,val_subject_macro_f1,0.36770735760078876,0.45310375632108163,0.36770735760078876,,15,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_flat_seed43_main.pt,13.114111599999887
+CNN-Flat,44,1.0,6,val_subject_macro_f1,0.35963548031974296,0.43754446480285686,0.35963548031974296,,16,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\cnn_flat_seed44_main.pt,13.952693600000202
+AE,42,1.0,37,val_subject_reconstruction_mse,3.4745440379240236e-05,,,3.4745440379240236e-05,47,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\ae_seed42_main.pt,43.751842300000135
+AE,43,1.0,68,val_subject_reconstruction_mse,1.9190235558174306e-05,,,1.9190235558174306e-05,78,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\ae_seed43_main.pt,72.83913379999649
+AE,44,1.0,21,val_subject_reconstruction_mse,4.705620088025044e-05,,,4.705620088025044e-05,31,d:\IOT_AI\Dual_Task_Autoencoder\checkpoints\ae_seed44_main.pt,28.99499950000245
